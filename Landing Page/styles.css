@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f8ff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #0275d8;
+  color: white;
+}
+
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.hero-section {
+  text-align: center;
+  background: url("beach.jpg") no-repeat center center/cover;
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-section h1 {
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+
+.hero-section p {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.hero-section .btn {
+  background-color: #ffb700;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.services-section,
+.gallery-section,
+.contact-section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.services-section h2,
+.gallery-section h2,
+.contact-section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.service {
+  background-color: #f0f8ff;
+  padding: 20px;
+  width: 30%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.gallery img {
+  width: 30%;
+  border-radius: 10px;
+}
+
+.contact-section p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.contact-section .btn {
+  background-color: #0275d8;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #0275d8;
+  color: white;
+}
